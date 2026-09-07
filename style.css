@@ -1,0 +1,27 @@
+:root { color-scheme: light dark; }
+body {
+  max-width: 42rem;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  font: 1rem serif;
+  overflow-wrap: break-word;
+  background: #adbeef;
+  color: #111;
+}
+header { 
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 2rem; 
+}
+a { color: inherit; text-underline-offset: .15em; }
+h1, h2, h3 { line-height: 1.2; }
+pre { padding: 1rem; overflow-x: auto; }
+code { font-size: .9em; }
+img, video { max-width: 100%; height: auto; }
+blockquote { margin-left: 0; padding-left: 1rem; border-left: 2px solid; }
+table { display: block; overflow-x: auto; border-collapse: collapse; }
+th, td { padding: .3rem .6rem; border: 1px solid; }
+time { font-size: .9em; }
+.posts { padding: 0; list-style: none; }
+.posts li { margin: .6rem 0; }
